@@ -21,7 +21,7 @@
 .container{
   width:80%;
   margin:0 auto;
-  background-color:black;
+
 }
 
 #headers{
@@ -110,9 +110,9 @@ h5{
   font-style: italic oblique;
   font-family: inherit;
 }
-h3,h3:hover{
-  font-size: inherit
-  text-shadow: 3%;
+h3,h5:hover{
+  font-size: inherit;
+  text-shadow: 13%;
 }
 
 #p{
@@ -120,8 +120,8 @@ h3,h3:hover{
   font-size:24px;
   color:  cyan;
   font-family:Caveat,cursive;
-  background-color: #000000;
-  padding-bottom: 2%;
+  background-color: black;
+
   box-shadow: 3px 3px 3px;
   border:1px ridge cyan;
 }
@@ -157,8 +157,7 @@ h3,h3:hover{
   margin:20px;
   text-decoration:none;
   list-style:none;
-  padding-right: 10%
-  margin-bottom:18%;
+  padding-right: 10%;
   margin-left: 6%;
   }
 #con{
