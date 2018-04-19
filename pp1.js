@@ -28,18 +28,22 @@ function showSlides(n) {
 }
 //Automatic Slideshow
 /*
-var slideIndex = 0;
-showSlides();
+var qIndex = 0;
+quote();
+var q=["laziness is the mother of all bad habits yet she is a mother and we should Respect her",
+"It’s foolish to fear what we’ve yet to see and know"];
+var a=["shikamaru nara","Masashi Kishimoto"];
 
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
+function quote(qIndex) {
+
+    /*for (i = 0; i < q.length; i++) {
+        q[i].style.display = "none";
     }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}
-    slides[slideIndex-1].style.display = "block";
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
-*/
+    qIndex++;
+    if (qIndex > q.length) {qIndex = 1}
+
+    $(.blockquote).text(q[qIndex]);
+    $(.footer).text(a[qIndex]);
+
+    setTimeout(quote, 2000); // Change image every 2 seconds
+}*/
