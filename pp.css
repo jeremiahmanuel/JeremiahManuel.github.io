@@ -38,7 +38,7 @@ border:2px solid transparent;
 box-shadow: 3px 3px 4px #000;
 }
 .image{
-background-image: url(144565.jpg);
+background-image: url(b1.jpg);
 background-repeat:repeat-x ;
 background-position: right ;
 z-index: -1;
@@ -130,9 +130,9 @@ h3,h5:hover{
   box-shadow: 3px 3px 3px;
   border:1px ridge cyan;
 }
-@media screen (min-width:360px) {
+@media screen (min-width:568px) {
   #intro{
-    padding-left: 20%;
+    padding-left: 10%;
   }
   .im3{
     background-image: url(11.jpg);
@@ -164,30 +164,21 @@ h3,h5:hover{
     color:white;
   font-size:32px;
   font-family:Caveat,cursive;
-  margin:20px;
-  text-decoration:none;
-  list-style:none;
+  /*margin:20px;
   padding-right: 10%;
-  margin-left: 6%;
+  margin-left: 6%;*/
   }
 #con{
-    display:inline-block;
-    margin-top:20px;
+
   background-color:#000000;
   color:white;
   font-size:32px;
-  font-family:Caveat,cursive;
+  font-family:Caveat,cursive;/*
 margin-bottom: 18%;
 margin-left:10%;
-margin-right: 6%;
+margin-right: 6%;*/
 }
 
-#ic{
-  background-color:#000000;
-  font-size:32px;
-  font-family:lobster;
-  color:white;
-}
 .fa{
   padding: 18px;
       font-size: 20px;
@@ -346,7 +337,6 @@ margin-right: 6%;
 .im3{
   background-color: black;
   background-position: top;
-  padding-top: 20% ;
   margin-top:11%;
   margin-bottom:1%;
   background-repeat:repeat-x;
