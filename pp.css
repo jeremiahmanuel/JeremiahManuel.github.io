@@ -318,18 +318,7 @@ margin-right: 6%;*/
   to {opacity: 1}
 }
 
-.im2{
-  background-image: url(8.jpg);
-  background-color: black;
-  background-position: center;
-  padding-top: 7% ;
-  padding-left: 24%;
-  padding-bottom: 5%;
-  background-repeat:repeat-x;
-  margin-top: 30%;
-  margin-bottom: 30%;
-  box-shadow: 2px 2px 4px 2.5px #000;
- }
+
 #mp,#con{
   box-shadow: 4px 3px 3px  #181818  ;
   border:1px solid grey;

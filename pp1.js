@@ -15,8 +15,10 @@ function showSlides(n) {
   var i;
   var slides = $(".mySlides");
   var dots = $(".dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
+  if (n > slides.length)
+  {slideIndex = 1;}
+  if (n < 1)
+  {slideIndex = slides.length;}
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
   }
@@ -26,24 +28,33 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "inline";
   dots[slideIndex-1].className += " active";
 }
+/*
+$(.nav).hide();
+$(#menu).onclick(function(){
+  $(.nav).toggle(500);
+});
+
+
+
+
 //Automatic Slideshow
 /*
 var qIndex = 0;
-quote();
+
 var q=["laziness is the mother of all bad habits yet she is a mother and we should Respect her",
 "It’s foolish to fear what we’ve yet to see and know"];
 var a=["shikamaru nara","Masashi Kishimoto"];
-
+quote();
 function quote(qIndex) {
 
-    /*for (i = 0; i < q.length; i++) {
+    for (i = 0; i < q.length; i++) {
         q[i].style.display = "none";
-    }
+
     qIndex++;
     if (qIndex > q.length) {qIndex = 1}
 
     $(.blockquote).text(q[qIndex]);
     $(.footer).text(a[qIndex]);
 
-    setTimeout(quote, 2000); // Change image every 2 seconds
+    setTimeout(quote(), 2000); // Change quote every 2 seconds
 }*/
