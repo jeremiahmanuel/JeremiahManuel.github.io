@@ -1,17 +1,15 @@
-var slideIndex = 1;
-showSlides(slideIndex);
+$("#menu").on("click",function () {
+  if ($(".nav").attr("display")=="block") {
+    $(".nav").style.display = "none";
+  }
+  else {
+    $(".nav").style.display = "block";
+  }
+});
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
+let slideIndex = 1;
+let showSlides=function(n) {
   var i;
   var slides = $(".mySlides");
   var dots = $(".dot");
@@ -28,6 +26,20 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "inline";
   dots[slideIndex-1].className += " active";
 }
+
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+
 /*
 $(.nav).hide();
 $(#menu).onclick(function(){
