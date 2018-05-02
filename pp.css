@@ -24,23 +24,10 @@
   background-color: #21252B;
 }
 
-#headers{
-background-color: rgba(0,0,0,0.1);
-position: relative;
-z-index: 10;
-width:100%;
-margin-left: 0.01%;
-}
-
-div#headers:hover{
-background-color: rgba(0,0,0,1.0);
-border:2px solid transparent;
-box-shadow: 3px 3px 4px #000;
-}
 .image{
 background-image: url(b1.jpg);
 background-repeat:repeat-x ;
-background-position: right ;
+background-position: cover ;
 z-index: -1;
   background-color:black;
   box-shadow: 3px 2px 4px #000;
@@ -49,58 +36,37 @@ z-index: -1;
 .name{
 font-family:Pacifico,cursive;
 color:white;
-padding:0.4em 0em 0.1em 2em;
-}
-.nav{
-  float:right;
-  margin-top:0.4em;
-  margin-left: 10.8em;
-  padding-bottom: 0.4em;
-  display: block;
 }
 
 nav ul{
-  margin:0;
-  padding:0;
   list-style:none;
+  background-color: black;
+  opacity: 0.5;
+  display: none;
 }
 
-nav ul li{
-  margin-left:35px;
-  padding-top:30px;
+nav ul li{;
   font-size:18px;
   position:relative;
   color:white;
-  font-family:Berkshire Swash,cursive;
-
+  font-family:Berkshire Swash;
 }
 
 nav ul>li>a{
   text-decoration:none;
   text-transform:uppercase;
   color: inherit;
+  transition: 0.3s;
 }
 
 nav a:hover{
   color:white;
+  background-color: #696969
+}
+#menu:hover nav ul{
+  display: block;
 }
 
-nav a::before{
-  content:'';
-  display:block;
-  height:5px;
-  weight:80%;
-  background-color:white;
-  position: absolute;
-  top:10px;
-  width:0%;
-  transition: all ease-in-out 250ms;
-}
-
-nav a:hover::before {
-  width:100%;
-
-}
 .quote{
   padding-top:25%;
   padding-bottom: 31.45%;
