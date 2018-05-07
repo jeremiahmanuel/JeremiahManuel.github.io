@@ -20,7 +20,7 @@ let showSlides=function(n) {
   dots[slideIndex-1].className += " active";
 };
 
-showSlides(slideIndex);
+//showSlides(slideIndex);
 
 // Next/previous controls
 function plusSlides(n) {
