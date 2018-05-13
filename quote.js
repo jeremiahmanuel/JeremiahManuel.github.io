@@ -10,7 +10,7 @@ let quote = function (qIndex) {
     let b = $(".blockquote");
     b.html("<blockquote class='blockquote' style='font-size:26px;'>\""+q[qIndex]+"\"<footer class='blockquote-footer'>"+a[qIndex]+"</footer></blockquote>");
     qIndex++;
-    setTimeout(quote(qIndex), 500000); // Change quote every 2 seconds
+    setTimeout(quote(qIndex), 5000); // Change quote every 2 seconds
 };
 
 //quote(0);

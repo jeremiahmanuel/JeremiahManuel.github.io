@@ -14,10 +14,11 @@ let showSlides=function(n) {
       slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
+      //dots[i].className = dots[i].className.replace(" active", "");
+  dots.eq(i).removeClass("active");
   }
   slides[slideIndex-1].style.display = "inline";
-  dots[slideIndex-1].className += " active";
+  dots.eq(slideIndex-1).addClass(" active");
 };
 
 //showSlides(slideIndex);

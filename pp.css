@@ -49,14 +49,14 @@ color:white;
   left:14%;
   opacity:0.8;
   background-color: black;
-  border: 1px solid #696969;
-  box-shadow: 2px 2px 2px 2px  #696969;
+  border: 1px solid #111111;
+  box-shadow: 2px 2px 2px 2px  #000;
   z-index: 1000;
 }
 nav ul{
   list-style:none;
   display: none;
-  opacity: 1.0;
+  opacity: 0.8;
 }
 
 nav ul li{
@@ -65,7 +65,6 @@ nav ul li{
   position:relative;
   color:white;
   font-family:Berkshire Swash;
-  transition: 0.3s;
 }
 
 nav ul>li>a{
@@ -95,20 +94,14 @@ nav ul li:hover{
 }
 
 #p{
-  margin-left: 12.5%;
   font-size:24px;
-  color:  cyan;
   font-family:Caveat,cursive;
   background-color: black;
-  box-shadow: 3px 3px 3px;
-  border:1px ridge cyan;
+  color: white;
 }
 @media screen (min-width:568px) {
   #intro{
     padding-left: 10%;
-  }
-  .im3{
-    background-image: url(11.jpg);
   }
 }
 .myPic{
