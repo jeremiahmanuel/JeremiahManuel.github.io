@@ -25,7 +25,16 @@
 }
 
 #menu{
-  opacity: 0.5;
+  opacity: 0.60;
+}
+
+li a{
+  text-decoration: none;
+  list-style: none;
+}
+li a:hover{
+  color:white;
+  text-decoration: none;
 }
 .image{
 background-image: url(b1.jpg);
