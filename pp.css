@@ -24,6 +24,9 @@
   background-color: #21252B;
 }
 
+#menu{
+  opacity: 0.5;
+}
 .image{
 background-image: url(b1.jpg);
 background-repeat:repeat-x ;
@@ -83,6 +86,7 @@ nav ul li:hover{
 
 #menu:hover nav ul{
   display: block;
+  opacity:1;
 }
 
 .quote{
