@@ -13,9 +13,26 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
-
+<!--<script type="text/javascript">
+view.then(function(){
+                console.log("Map is done loading.");
+                // Get a reference to the loader's div
+                var loaderDiv = document.getElementById("loader-wrapper");
+                // When the transition ends remove loader's div from display
+                // so that we can access the map with gestures or clicks
+                loaderDiv.addEventListener("transitionend",function(){
+                    loaderDiv.style.display = "none";
+                }, true);
+                // Kick off the CSS transition
+                loaderDiv.style.opacity = 0.0;
+            });
+        });
+</script>-->
 
 <body class="container containers " onload="showSlides(1); quote(); ">
+  <div id="loader-wrapper">
+        <div id="loader"></div>
+    </div>
   <div  class="image">
     <div class="col mt-2" id="menu">
       <button class="float-right btn btn-success " >
@@ -148,9 +165,10 @@
       <div style="font-family:Cabin Sketch,cursive;" class="text-center">Mobile no.:+91-8547336125</div>
   </div>
   </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"> </script>
   <script src="jq.js" type="text/javascript"></script>
   <script src="quote.js" type="text/javascript"></script>
-  <script src="pp1.js" type="text/javascript"></script>
+  <script src="pp1.js" type="text/javascript"> </script>
+
   google-site-verification: google49720c63eeabe4da.html
 </body>
