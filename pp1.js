@@ -32,3 +32,7 @@ function plusSlides(n) {
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
+
+function myFunction(x) {
+  x.classList.toggle("change");
+}
